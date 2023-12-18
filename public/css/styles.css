@@ -1,10 +1,10 @@
 body{
-    background-color: #E4E9FD;
+    background-color: yellow;
     font-family: 'helvetica neue';
 }
 .title{
     position: relative;
-    background-color: antiquewhite;
+    background-color:brown;
     text-align: center;
     height: 100px;
     text-size-adjust: larger;
@@ -12,7 +12,7 @@ body{
 
 .title > h1{
     position: absolute;
-    color: brown;
+    color: white;
     font-family: Arial, Helvetica, sans-serif;
     
 }
@@ -42,21 +42,41 @@ body{
         display: flex;
         align-items: center;
         flex-direction: column;
+        width: 300px;
         gap: 25px;
-        height: 60vh;
+        height:fit-content;
+        background-color: black;
+        margin:auto;
+        margin-top: 50px;
+        margin-bottom: 20px;
     }
+
 
     .btn{
-        margin-top: 250px;
-    }
-
-    footer{
-        display: flex;
-        align-items: flex-end;
-
-    }
-
-    .btn:hover{
-        color: white;
-    }
+        text-align: center;
+        text-decoration: none;
+        font-size: x-large;
+        width: 5rem;
+        color: black;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        border: groove;
+        border-color: blueviolet;
+        border-radius: 10%;
+        background-image: linear-gradient(rgb(255, 9, 202),rgb(221, 1, 255));
+        margin-left: 200px;
+        margin-top: 200px;
+      }
+      
+      .btn:hover{
+        background: linear-gradient(#073,#0fa);
+      }
+      
+      
+      footer{
+      
+       margin-top: 100px;
+        text-align: end;
+        color:rgb(0, 0, 0);
+       
+      }
 }
