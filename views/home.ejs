@@ -1,0 +1,17 @@
+<%- include("./partials/header") -%>
+
+<div class="content">
+    <h1><%= quote %></h1>
+    <h2>Author: <%= author %></h2>
+
+    <button onclick="refresh()" class="btn btn-primary">Once More</button>
+</div>
+
+<script>
+    function refresh(){
+        window.location.reload();
+    }
+</script>
+
+
+<%- include("./partials/footer") -%>
